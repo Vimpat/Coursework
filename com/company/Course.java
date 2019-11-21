@@ -19,14 +19,14 @@ public class Course {
     }
 
     /**
-     * Accesor method for subject, gets and returns it.
+     * Returns the name of the subject.
      */
     public Subject getSubject() {
         return subject;
     }
 
     /**
-     * Method which calculates the status of the course.
+     * Calculates the status of the course.
      * If the course hasn't started yet it returns how many days until it starts (in negative numbers);
      * Else if the it is currently running then it returns how many days until it is finished;
      * Else if it is done then it returns 0.
