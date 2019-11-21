@@ -24,35 +24,35 @@ public class Subject {
     }
 
     /**
-     * Mutator method for description, takes a String as parameter and defines it as the description.
+     * Sets a new description, taking a string as parameter.
      */
     public void setDescription(String description) {
         this.description = description;
     }
 
     /**
-     * Accesor method for ID, gets and returns it.
+     * Returns the ID.
      */
     public int getID() {
         return id;
     }
 
     /**
-     * Accesor method for duration, gets and returns it.
+     * Returns the duration.
      */
     public int getDuration() {
         return duration;
     }
 
     /**
-     * Accesor method for specialism, gets and returns it.
+     * Returns the specialism.
      */
     public int getSpecialism() {
         return specialism;
     }
 
     /**
-     * Accesor method for description, gets and returns it.
+     * Returns the description
      */
     public String getDescription() {
         return description;
