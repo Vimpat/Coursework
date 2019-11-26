@@ -1,4 +1,3 @@
-package com.company;
 
 /**
  * The subjects which contain the id, specialism and duration of each of the subjects.

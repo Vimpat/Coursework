@@ -1,4 +1,3 @@
-package com.company;
 import java.util.ArrayList;
 
 /**
@@ -7,14 +6,13 @@ import java.util.ArrayList;
 public class Student extends Person {
 
     //A list of subject IDs that the student currently has.
-    private ArrayList<Integer> certificates;
+    private ArrayList<Integer> certificates = new ArrayList<Integer>();
 
     /**
      * Creates the student object, asks for the same input as the person class along with a list of IDs.
      */
-    public Student ( String name, char gender, int age, ArrayList<Integer> certificates ) {
+    public Student ( String name, char gender, int age ) {
         super (name, gender, age);
-        this.certificates = new ArrayList<Integer>(certificates);
     }
 
     /**
