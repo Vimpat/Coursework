@@ -1,4 +1,3 @@
-package com.company;
 
 /**
  * A person with a name, gander and age. Can be either a student or an Instructor (defined by their respective classes).
